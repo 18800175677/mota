@@ -1,12 +1,19 @@
+/**
+ * @description: 
+ * @author: ycz
+ * @Date: 2020-09-17 19:50:10
+ * @LastEditTime: 2020-09-17 20:09:46
+ * @LastEditors: ycz
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Index from './routes/Index';
+import './index.less';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Index />
   </React.StrictMode>,
   document.getElementById('root')
 );
